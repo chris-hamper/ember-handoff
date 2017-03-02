@@ -46,11 +46,15 @@
     "ember-addon"
   ],
   "dependencies": {
+    "ember-cli": "github:ember-cli/ember-cli#v2.11.1",
     "ember-cli-babel": "^5.1.5",
+    "ember-cli-fastboot": "git://github.com/ember-fastboot/ember-cli-fastboot.git#v1.0.0-beta.15",
     "ember-cli-htmlbars": "^1.0.1",
     "ember-data": "^2.11.1",
+    "ember-engines": "github:ember-engines/ember-engines#v0.4.0",
     "ember-network": "0.3.0",
-    "ember-wormhole": "0.3.5"
+    "ember-wormhole": "0.3.5",
+    "liquid-fire": "github:ember-animation/liquid-fire#v0.27.1"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
